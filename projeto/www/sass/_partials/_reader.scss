@@ -1,0 +1,106 @@
+.reader{
+	.reader__btnback{
+		display: inline-block;
+		margin-top: 50px;
+		font-size: 14px;
+		color: $preto;
+
+		i{
+			font-size: 12px;
+		}
+	}
+
+	.reader__content{
+		.reader__content--title{
+			font-size: 25px;
+			color: $preto;
+			text-align: center;
+		}
+
+		.reader__content--subtitle{
+			font-size: 12px;
+			color: darken($cinza, 30%);
+			text-align: center;
+			font-weight: $regular;
+			margin-top: 10px;
+		}
+		
+		.reader__ajusts{
+			float: right;
+			margin-top: 60px;
+			ul{
+				li{
+					display: inline-block;
+					margin-left: 12px;
+					a{
+						font-size: 22px;
+						color: $preto;
+					}
+				}
+			}
+		}
+
+		.reader__content--text{
+			margin-top: 140px;
+			p{
+				font-size: 16px;
+				color: $preto;
+				text-align: justify;
+				line-height: 30px;
+				margin-top: 0;
+			}
+			b{
+				color: $preto;
+				margin-top: 50px;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+		}
+
+		.reader__vote{
+			@include make-md-column(2);
+			@include make-md-column-offset(5);
+			margin-top: 30px;
+
+			.reader__vote--title{
+				text-align: center;
+				color: $preto;
+			}
+
+			ol{	
+				@include flexbox;
+				@include align-items(center);
+				@include justify-content(space-around);		
+				li{
+					margin-top: 15px;
+					a{
+						font-size: 22px;
+						color: $preto;
+					}
+				}
+			}
+		}
+
+		.reader__content--references{
+			border-top: 1px solid lighten($cinza, 8%);
+			display: inline-block;
+			margin-top: 60px;
+			h3{
+				font-size: 16px;
+				color: $preto;
+				margin-top: 40px;
+			}
+			cite{
+				display: inline-block;
+				margin-top: 10px;
+				font-size: 14px;
+				color: $preto;
+				font-weight: $regular;
+			}
+			p{
+				clear: both !important;
+				margin-top: 10px;
+			}
+		}
+	}
+}

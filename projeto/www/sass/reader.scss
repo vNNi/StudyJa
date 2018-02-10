@@ -1,0 +1,13 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../bower_components/sass-flex-mixin/flex";
+
+@import "_base/variables";
+@import "_base/fonts";
+@import "_base/reset";
+@import "_base/mixins";
+@import "_base/text";
+
+@import "_partials/smallHeader";
+@import "_partials/reader";
+@import "_partials/smallFooter";

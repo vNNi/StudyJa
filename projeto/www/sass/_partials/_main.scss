@@ -1,0 +1,107 @@
+.about{
+	h1, p{
+		text-align: center;
+		@include make-md-column(10);
+		@include make-md-column-offset(1);
+	}
+
+	.about__images{
+		@include make-md-column(10);
+		@include make-md-column-offset(1);
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(space-around);
+		margin-top: 30px;
+
+		.about__images--circle{
+			width: 180px;
+			height: 180px;
+			background-color: $cinza;
+			//background-image: linear-gradient(rgba(68,191,255, 0.8), rgba(128,183,214, 0.1));
+			@include border-radius(50%);
+
+			.icon_register{
+				width: 80%;
+				margin: 22% 10%;
+				
+			}
+		}
+	}
+}
+
+.register{
+	background-color: $preto;
+	margin-top: 30px;
+	h1{
+		text-align: center !important;
+		padding: 60px 0 80px 0;
+		color: $branco;
+	}
+	 a[role="button"]{
+
+	 }
+}
+
+.why{
+	h1, p{
+		text-align: center;
+		@include make-md-column(10);
+		@include make-md-column-offset(1);
+	}
+
+	.why__images{
+		@include make-md-column(10);
+		@include make-md-column-offset(1);
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(space-around);
+		margin-top: 30px;
+
+		.why__images--circle{
+			width: 180px;
+			height: 180px;
+			background-color: $cinza;
+			@include border-radius(50%);
+		}
+	}
+}
+
+.app{
+	@include make-md-column(10);
+	@include make-md-column-offset(1);
+	margin-top: 40px;
+
+	.app__title{
+		border-top: 1px solid $cinza;
+		color: $preto;
+	    border-bottom: none;
+	    border-left: none;
+	    border-right: none;
+	    display: block;
+	    text-align: center;
+
+
+		legend {
+		    padding: 5px 10px;
+		    font-size: 18px;
+			color: $preto;
+			font-weight: $semibold;
+		}
+	}
+
+	.app__left{
+		@include make-md-column(6);
+		p{
+			text-align: justify;
+			padding: 20%;
+		}
+		a{
+			@include circleButton(1px, $preto, $preto);	
+			display: inline-block;
+			margin: 0 auto;
+		}
+	}
+	.app__right{
+		@include make-md-column(6);	
+	}
+}

@@ -1,0 +1,36 @@
+.login{
+	color: $preto;
+	position: relative;
+	a{
+		text-decoration: none; // Codigo esta aqui pois não "linkei" o reset
+	}
+	.panel{
+		width: 400px;
+		position: absolute;
+	    top: 50%;
+	    right: 50%;
+	    transform: translate(50%, 50%);
+		padding: 0;
+
+		h1{
+			text-align: center;
+		}
+
+		.btn-default{
+			width: 100%;
+			height: 40px;
+			background-color: lighten($cinza, 15%);
+			font-size: 15px;
+			font-weight: $regular;
+		}
+
+		.panel-footer{
+			a{
+				text-align: center;
+			}
+		}
+	}
+	.descript{
+
+	}
+}

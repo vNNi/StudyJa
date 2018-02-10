@@ -1,0 +1,21 @@
+{
+  "name": "estudeja",
+  "version": "0.0.0",
+  "authors": [
+    "Rafael Marinho <rafael.marinho07@gmail.com>"
+  ],
+  "description": "Site de resumos de livros e artigos cientificos",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.7",
+    "sass-flex-mixin": "~1.0.3"
+  }
+}

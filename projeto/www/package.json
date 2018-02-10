@@ -1,0 +1,25 @@
+{
+  "name": "estudeja",
+  "version": "1.0.0",
+  "description": "site de resumo de livros e artigos cientificos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabricaAppU9/estudeja.git"
+  },
+  "author": "Rafael Marinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabricaAppU9/estudeja/issues"
+  },
+  "homepage": "https://github.com/FabricaAppU9/estudeja#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

@@ -1,0 +1,15 @@
+a[role="button"]{
+	font-size: 14px;
+	padding: 5px 15px;
+}
+.activeborder[role="button"]{
+	@include border-radius(20px);
+}
+
+@mixin circleButton($sizeborder, $colorborder, $colortext){
+	font-size: 14px;
+	padding: 5px 15px;
+	color: $colortext;
+	border: $sizeborder solid $colorborder;
+	@include border-radius(20px);
+}

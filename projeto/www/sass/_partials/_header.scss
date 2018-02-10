@@ -1,0 +1,42 @@
+.header{
+	position: relative;
+	.header__logo{
+		color: $branco;
+		display: inline-block;
+		margin: 30px 0 0 0;
+	}
+
+	.header__menu{
+		float: right;
+		margin: 30px 0 0 0;
+		ul{
+			li{
+				list-style: none;
+				display: inline-block;
+				padding-right: 30px;
+				a{
+					color: $branco;
+				}
+				.activeborder{
+					border: 1px solid $branco;
+				}		
+			}		
+		}
+	}
+	.header__text{
+		width: 50%;
+		position: absolute;
+	    top: 25%;
+	    right: 50%;
+	   	transform: translate(50%, 50%);
+
+	   	h1{
+	   		color: $branco;
+	   		text-align: center;
+	   	}
+		p{
+			color: $branco;
+			text-align: center;
+		}
+	}
+}
